@@ -1,1 +1,25 @@
-
+{
+  "sim": {
+    "duration_ms": 8000,
+    "tick_ms": 50
+  },
+  "uplink": {
+    "latency_ms": 250,
+    "jitter_ms": 50,
+    "loss_rate": 0.02
+  },
+  "downlink": {
+    "latency_ms": 350,
+    "jitter_ms": 80,
+    "loss_rate": 0.02
+  },
+  "attacker": {
+    "mode": "none",
+    "replay_after_ms": 1200,
+    "tamper_rate": 1.0
+  },
+  "traffic": {
+    "num_commands": 3,
+    "command_interval_ms": 1000
+  }
+}
